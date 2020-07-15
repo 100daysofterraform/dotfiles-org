@@ -1,0 +1,39 @@
+{
+  "disableMetrics": true,
+  "dry-run": false,
+  "increment": "minor",
+  "verbose": true,
+  "git": {
+    "addUntrackedFiles": false,
+    "changelog": "git log --pretty=format:\"* %s (%h)\" ${from}...${to}",
+    "commit": true,
+    "commitMessage": "Release ${version}",
+    "push": true,
+    "pushArgs": ["--follow-tags"],
+    "pushRepo": "origin",
+    "requireBranch": "main",
+    "requireCommits": true,
+    "requireCleanWorkingDir": true,
+    "requireUpstream": true,
+    "tag": true,
+    "tagAnnotation": "Release ${version}",
+    "tagName": null
+  },
+  "github": {
+    "draft": false,
+    "preRelease": false,
+    "release": true,
+    "releaseName": "Release ${version}",
+    "releaseNotes": null,
+    "skipChecks": false,
+    "tokenRef": "GITHUB_TOKEN_100DAYSOFTERRAFORM_BOT"
+  },
+  "npm": {
+    "publish": false
+  },
+  "plugins": {
+    "@release-it/conventional-changelog": {
+      "infile": "CHANGELOG.md"
+    }
+  }
+}
