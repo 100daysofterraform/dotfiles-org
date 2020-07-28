@@ -52,3 +52,19 @@ rule "terraform_module_pinned_source" {
 //rule "terraform_standard_module_structure" {
 //  enabled = true
 //}
+
+rule "aws_db_instance_invalid_type" {
+  enabled = false
+}
+
+rule "aws_db_instance_previous_type" {
+  enabled = false
+}
+
+rule "aws_instance_invalid_type" {
+  enabled = false
+}
+
+rule "aws_instance_previous_type" {
+  enabled = false
+}
