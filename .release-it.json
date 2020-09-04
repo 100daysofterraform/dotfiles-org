@@ -26,7 +26,7 @@
     "releaseName": "Release ${version}",
     "releaseNotes": null,
     "skipChecks": false,
-    "tokenRef": "GITHUB_TOKEN_100DAYSOFTERRAFORM_BOT"
+    "tokenRef": "GITHUB_TOKEN_PLANAPPLY_BOT"
   },
   "npm": {
     "publish": false

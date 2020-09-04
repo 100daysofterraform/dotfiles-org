@@ -1,10 +1,10 @@
-# Organization-specific Dotfiles for @100daysofterraform
+# Organization-specific Dotfiles for @planapply
 
-> This repository is a collection of organization-specific `dotfiles` for [@100daysofterraform](https://github.com/100daysofterraform/).
+> This repository is a collection of organization-specific `dotfiles` for [@planapply](https://github.com/planapply/).
 
 ## Table of Contents
 
-- [Organization-specific Dotfiles for @100daysofterraform](#organization-specific-dotfiles-for-100daysofterraform)
+- [Organization-specific Dotfiles for @planapply](#organization-specific-dotfiles-for-planapply)
   - [Table of Contents](#table-of-contents)
   - [Background](#background)
   - [Usage](#usage)
@@ -14,7 +14,7 @@
 
 ## Background
 
-The contents of this repository constitute the organization-specific configuration that is used during development and maintenance of [@100daysofterraform](https://github.com/100daysofterraform/) projects.
+The contents of this repository constitute the organization-specific configuration that is used during development and maintenance of [@planapply](https://github.com/planapply/) projects.
 
 The contents of this `dotfiles-org` repository are expected to be on the same level as a project's main directory:
 
@@ -32,7 +32,7 @@ The contents of this `dotfiles-org` repository are expected to be on the same le
 Clone this repository, preserving the original directory name:
 
 ```sh
-git clone git@github.com:100daysofterraform/dotfiles-org.git ./dotfiles-org
+git clone git@github.com:planapply/dotfiles-org.git ./dotfiles-org
 ```
 
 ## Notes
@@ -41,7 +41,7 @@ The projects that consume this repository's contents (`dotfiles-org`) do not dep
 
 ## Author Information
 
-This repository is maintained by the contributors listed on [GitHub](https://github.com/100daysofterraform/dotfiles-org/graphs/contributors).
+This repository is maintained by the contributors listed on [GitHub](https://github.com/planapply/dotfiles-org/graphs/contributors).
 
 Original code in this repository was developed for [operatehappy/dotfiles-org](https://github.com/operatehappy/dotfiles-org) and is used with permission.
 
