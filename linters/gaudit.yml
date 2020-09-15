@@ -1,4 +1,4 @@
---- 
+---
 - 
   action: exists
   name: "gitignore file"
