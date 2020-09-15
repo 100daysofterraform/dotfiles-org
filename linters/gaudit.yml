@@ -10,7 +10,7 @@
   name: "README file"
   resource: README.md
 
-- 
+-
   action: exists
   name: "License file"
   resource: LICENSE
