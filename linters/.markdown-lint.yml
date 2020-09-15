@@ -1,5 +1,6 @@
----
+--- 
 
 default: true
-MD003:
+
+MD003: 
   style: atx_closed
