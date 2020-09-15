@@ -3,4 +3,6 @@
 default: true
 
 MD003:
-  style: atx_closed
+  style: atx
+
+MD013: false
