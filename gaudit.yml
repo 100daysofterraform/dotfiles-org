@@ -1,0 +1,16 @@
+---
+
+-
+  action: exists
+  name: "gitignore file"
+  resource: .gitignore
+
+-
+  action: exists
+  name: "README file"
+  resource: README.md
+
+-
+  action: exists
+  name: "License file"
+  resource: LICENSE
